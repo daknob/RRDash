@@ -7,13 +7,13 @@
     need to specify the name that will appear, as well as the graphs that will be visible.
     */
     $Categories = array(
-        network => array(
-            name => "Network Traffic",
-            graphs => array("eth0", "eth1", "lo"),
+        "network" => array(
+            "name" => "Network Traffic",
+            "graphs" => array("eth0", "eth1", "lo"),
         ),
-        server => array(
-            name => "Server A",
-            graphs => array("cpu", "ram", "disk"),
+        "server" => array(
+            "name" => "Server A",
+            "graphs" => array("cpu", "ram", "disk"),
         ),
     );
 

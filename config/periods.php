@@ -10,11 +10,11 @@
     will appear in the "Time Period" menu of RRDash.
     */
     $TimePeriods = array (
-        "hour"  => array( from => "-3600",    to => "-30", name => "One Hour"  ),
-        "6hrs"  => array( from => "-21600",   to => "-30", name => "Six Hours" ),
-        "day"   => array( from => "-86400",   to => "-30", name => "One Day"   ),
-        "week"  => array( from => "-604800",  to => "-30", name => "One Week"  ),
-        "month" => array( from => "-2592000", to => "-30", name => "One Month" ),
+        "hour"  => array( "from" => "-3600",    "to" => "-30", "name" => "One Hour"  ),
+        "6hrs"  => array( "from" => "-21600",   "to" => "-30", "name" => "Six Hours" ),
+        "day"   => array( "from" => "-86400",   "to" => "-30", "name" => "One Day"   ),
+        "week"  => array( "from" => "-604800",  "to" => "-30", "name" => "One Week"  ),
+        "month" => array( "from" => "-2592000", "to" => "-30", "name" => "One Month" ),
     );
 
     /*
